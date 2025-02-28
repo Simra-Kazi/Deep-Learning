@@ -1,7 +1,7 @@
 ## Glasses Detection Using Deep Learning ##
 This project is a Deep Learning-based image classification system to detect whether a person is wearing glasses or not. The model is trained using Convolutional Neural Networks (CNNs) and deployed using Streamlit for an easy-to-use web interface.
 
-.
+
 ├── data/                     # (Not included in GitHub - local dataset directory)
 │   ├── with_glasses/         # Images of people with glasses
 │   ├── without_glasses/      # Images of people without glasses
