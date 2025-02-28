@@ -2,29 +2,19 @@
 This project is a Deep Learning-based image classification system to detect whether a person is wearing glasses or not. The model is trained using Convolutional Neural Networks (CNNs) and deployed using Streamlit for an easy-to-use web interface.
 
 
-├── data/                     # (Not included in GitHub - local dataset directory)
-│   ├── with_glasses/         # Images of people with glasses
-│   ├── without_glasses/      # Images of people without glasses
-├── model/                     # Saved trained model (glasses_model.h5) - Not uploaded to GitHub
-├── app.py                     # Streamlit app for image upload and classification
-├── train_glasses_model.py     # Training script for CNN model
-├── requirements.txt           # Required libraries
-└── README.md                  # Project documentation
+data                  # (Not included in GitHub - local dataset directory)
+with_glasses        # Images of people with glasses
+without_glasses    # Images of people without glasses
+model                     # Saved trained model (glasses_model.h5) - Not uploaded to GitHub
+app.py                     # Streamlit app for image upload and classification
+train_glasses_model.py     # Training script for CNN model
+requirements.txt           # Required libraries
+README.md                  # Project documentation
 
 The dataset is not stored in this repository.
 Please place your images in the following folder structure:
-data/
-├── with_glasses/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── ...
-├── without_glasses/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── ...
-
-with_glasses/: Contains images of people wearing glasses.
-without_glasses/: Contains images of people without glasses.
+with_glasses: Contains images of people wearing glasses.
+without_glasses: Contains images of people without glasses.
 
 ## Installation & Setup ##
 1.Clone this repository:
