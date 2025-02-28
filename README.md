@@ -1,4 +1,4 @@
-** Glasses Detection Using Deep Learning **
+## Glasses Detection Using Deep Learning ##
 This project is a Deep Learning-based image classification system to detect whether a person is wearing glasses or not. The model is trained using Convolutional Neural Networks (CNNs) and deployed using Streamlit for an easy-to-use web interface.
 
 .
@@ -26,7 +26,7 @@ data/
 with_glasses/: Contains images of people wearing glasses.
 without_glasses/: Contains images of people without glasses.
 
-** Installation & Setup **
+## Installation & Setup ##
 1.Clone this repository:
 git clone https://github.com/Simra-Kazi/Deep-Learning.git
 cd Deep-Learning
@@ -40,18 +40,18 @@ python glasses.py
 4.Run the Streamlit app:
 streamlit run app.py
 
-** Usage **
+## Usage ##
 Open the Streamlit app in your browser.
 Upload an image (JPG, JPEG, PNG).
 The model will predict if the person is wearing glasses or not, along with a confidence score.
 
-** Model Details **
+## Model Details ##
 Model Type: Convolutional Neural Network (CNN)
 Framework: TensorFlow / Keras
 Input Size: 100x100 pixels (resized for consistency)
 Output: Binary classification - With Glasses or Without Glasses
 
-** File Descriptions **
+## File Descriptions ##
 File                                 	Description
 train_glasses_model.py	              Python script to train the CNN model
 app.py	                              Streamlit app for uploading images and getting predictions
@@ -59,22 +59,22 @@ requirements.txt	                    Python dependencies
 glasses_model.h5	                    Saved trained model (not uploaded to GitHub)
 README.md	                            Project documentation
 
-** Technologies Used **
+## Technologies Used ##
 Python
 TensorFlow/Keras
 Streamlit
 Pillow (PIL)
 NumPy
 
-** Future Improvements **
+## Future Improvements ##
 Expand the dataset with more diverse faces.
 Implement data augmentation during training.
 Add explainability features (e.g., Grad-CAM for heatmaps).
 Deploy to Streamlit Community Cloud for online access.
 
-** Author **
+## Author ##
 https://github.com/Simra-Kazi
 
-** License **
+## License ##
 This project is licensed under the MIT License - see LICENSE for details.
 
